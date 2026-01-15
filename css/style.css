@@ -22,6 +22,12 @@ a
 
 }
 
+img
+{
+    width: 300px;
+    height: auto;
+}
+
 .head
 {
     display: flex;
@@ -45,4 +51,40 @@ a
     background-color: #1f2937;
     padding: 50px 200px;
     justify-content: center;
+    height: fit-content;
+}
+
+.subFirst
+{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.ftext .introText
+{
+    font-size: 50px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.ftext .bodyText
+{
+    font-size: 20px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.ftext .button
+{
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 7px 25px;
+    width: 65px;
+    border: 0;
+    color: white;
+    font-weight: bold;
 }
