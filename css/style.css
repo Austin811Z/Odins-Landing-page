@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body
 {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', serif;
@@ -138,4 +141,38 @@ a
 {
     color: #636363;
     max-width: 150px;
+}
+
+.third .box
+{
+    width: fit-content;
+    margin: 0px auto;
+    padding: 24px;
+    background-color: #e5e7eb;
+}
+.text
+{
+    width: 65%;
+    margin: 100px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    
+    
+}
+
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:300;
+    font-style:italic;
+}
+
+.author
+{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
 }
